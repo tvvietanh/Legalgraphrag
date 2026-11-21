@@ -1,0 +1,28 @@
+# Dữ liệu bản án và các bản ghi có thể chứa tình tiết, nhãn theo bị cáo.
+/data/raw/
+/data/staged/
+/data/normalized/
+/data/enriched/
+/data/splits/*
+!/data/splits/*_ids.jsonl
+
+# Snapshot và kết quả chi tiết theo vụ. Giữ các báo cáo tổng hợp.
+/artifacts/graphs/
+/artifacts/retrieval/
+/artifacts/predictions/
+/artifacts/traces/
+/artifacts/metrics/**/per_case.csv
+
+# Môi trường Python và cache kiểm thử.
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Cấu hình môi trường cục bộ.
+.env
+.env.*
+!.env.example
+
+# Quy ước Git dùng cục bộ cho dự án.
+/git_format.md
