@@ -1,0 +1,62 @@
+{
+  "project": "VN-LegalGraphRAG research plan",
+  "date": "2026-11-21",
+  "scope": "Vietnamese criminal law, property offences, replication A",
+  "files": [
+    {
+      "name": "KB-build.md",
+      "sha256": "3511db19b4416cf60f4f7c3fad42c30ef7b4ec28ff99c7965575732f6f7aa9f4",
+      "bytes": 17878
+    },
+    {
+      "name": "agents.md",
+      "sha256": "c2758e93a9f3a35f21d88d1efa529d2025d81d503f9620efda1537b61d566992",
+      "bytes": 5780
+    },
+    {
+      "name": "benchmark.md",
+      "sha256": "ea6d626b43e01033d02baaead7ff7da4ead8a61f51d1dd665488712f9789b647",
+      "bytes": 6525
+    },
+    {
+      "name": "build-graph.md",
+      "sha256": "68e5d5a0e4a2fc8176f260178d27230d59bbb97d86ae242d482500187c32bc2a",
+      "bytes": 7313
+    },
+    {
+      "name": "evaluation.md",
+      "sha256": "de359f58b40a4109326ffcddd13763f4ad17b58df175132d6c51dcb61eb9f355",
+      "bytes": 5297
+    },
+    {
+      "name": "normalize-data.md",
+      "sha256": "c8d4028992d31743fa0955d3c6c0e9e05440a390e284d0870ed34550026cb06e",
+      "bytes": 9615
+    },
+    {
+      "name": "overall.md",
+      "sha256": "207b40da9f9738df37785435d4c2798fc96916ca31f43f78287799750fa2fdc2",
+      "bytes": 9186
+    },
+    {
+      "name": "prepare-data.md",
+      "sha256": "7f0e788fb7a8c2c85cf0637fb937473f79b4bf6ecf461f28d6267b47756826e1",
+      "bytes": 4833
+    },
+    {
+      "name": "report.md",
+      "sha256": "ab825629518a60b001d1fdd6bb92a59fb5836e5c4cefe7b36d6a35f07bd7d9c7",
+      "bytes": 4028
+    },
+    {
+      "name": "sources.md",
+      "sha256": "eca7085a1e4e83f30175429a3dd2c9a67a3d13c1934de6da03ea29b1974046c3",
+      "bytes": 9646
+    },
+    {
+      "name": "system.md",
+      "sha256": "756c4298fdae5f6b61136587c50e108179d6557caf10b970ae6b5d9212b17eb0",
+      "bytes": 9471
+    }
+  ]
+}
