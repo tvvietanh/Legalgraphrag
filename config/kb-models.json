@@ -1,0 +1,26 @@
+{
+  "schema_version": "vnlegal.model-plan.v1",
+  "construction": {
+    "backend": "ollama",
+    "model_id": "qwen3:8b",
+    "upstream_repo": "Qwen/Qwen3-8B",
+    "digest": null,
+    "max_output_tokens": 2048
+  },
+  "reasoning": {
+    "backend": "ollama",
+    "model_id": "qwen3:8b",
+    "upstream_repo": "Qwen/Qwen3-8B",
+    "digest": null,
+    "max_output_tokens": 2048
+  },
+  "embedding": {
+    "backend": "ollama",
+    "model_id": "bge-m3",
+    "upstream_repo": "BAAI/bge-m3",
+    "digest": null
+  },
+  "base_url": "http://127.0.0.1:11434",
+  "paid_api_enabled": false,
+  "notes": "Digest null means not provisioned, never production-ready. Model names are desired tags; pin actual service digest before running. No automatic download or server startup."
+}

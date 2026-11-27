@@ -1,0 +1,12 @@
+{
+  "schema_version": "vnlegal.remote-model.v1",
+  "model_id": "gpt-6.1-sol",
+  "revision": null,
+  "expected_response_model": null,
+  "base_url_env": "XAI247_BASE_URL",
+  "api_key_env": "XAI247_API_KEY",
+  "max_calls": 1,
+  "max_output_tokens": 512,
+  "max_input_bytes": 16000,
+  "timeout": 60
+}

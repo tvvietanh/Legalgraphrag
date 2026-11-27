@@ -1,0 +1,130 @@
+{
+  "type": "object",
+  "properties": {
+    "case_id": {
+      "const": "cbba:59552"
+    },
+    "defendants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "local_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name_as_written": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "local_id",
+          "name_as_written"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "charges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "defendant_local_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "charge_as_written": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "defendant_local_id",
+          "charge_as_written"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "law_mentions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "defendant_local_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "mention_as_written": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "enum": [
+              "applied",
+              "cited",
+              "unclear"
+            ]
+          }
+        },
+        "required": [
+          "defendant_local_id",
+          "mention_as_written",
+          "role"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "collection": {
+            "enum": [
+              "defendants",
+              "charges",
+              "law_mentions"
+            ]
+          },
+          "index": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "start": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "end": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "collection",
+          "index",
+          "start",
+          "end"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "required": [
+    "case_id",
+    "defendants",
+    "charges",
+    "law_mentions",
+    "evidence",
+    "warnings"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}
