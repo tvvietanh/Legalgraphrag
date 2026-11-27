@@ -41,3 +41,21 @@ Commit hash xem git log; trạng thái push phải dựa vào kết quả remote
 Preflight cấu hình remote trả configuration_incomplete vì không có biến môi
 trường trong worktree mới, exit 2 đúng dự kiến; network_called=false. Không
 sao chép credential từ repo cũ. Đã kiểm help CLI và link Markdown nội bộ.
+
+## Kết quả Git thực tế
+
+Đã tạo sáu commit riêng: 4dae9f9 (tài liệu), 63ce97c (normalize/schema),
+8a451da (graph), 11bb229 (agent), e4753d2 (tải HF), 1c2de6c (kiểm tích hợp).
+Đã rà 116 tệp code/tài liệu: không có data/, Others/, cache, token theo các
+mẫu khóa phổ biến hoặc tệp lớn hơn 1 MiB. Kiểm này không thay thế review
+bảo mật toàn diện. Toàn bộ 303 tests offline đạt.
+
+Lệnh git push -u origin office-khang chưa thành công: môi trường không có
+credential HTTPS, báo could not read Username. gh không được cài; không cài
+gói hệ thống hoặc đọc kho khóa của người dùng. ls-remote chưa thấy nhánh
+office-khang trên origin. Chưa tạo PR hoặc merge main.
+
+Người dùng có thể push các commit đã có bằng terminal Git đã đăng nhập, tại
+.worktrees/office-khang/. Không cần tạo lại nhánh hoặc chép lại dữ liệu.
+Chưa tiếp tục chạy model xây KB vì phần Git chưa bàn giao remote và mẫu
+input Fact/chi phí request vẫn cần duyệt theo quy tắc hiện có.
