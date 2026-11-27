@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "reference_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subject_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "field": {
+      "const": "text"
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "char_start": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "char_end": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "page": {
+      "type": "null"
+    },
+    "order": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "role": {
+      "const": "source_text"
+    }
+  },
+  "required": [
+    "reference_id",
+    "subject_id",
+    "field",
+    "source_id",
+    "char_start",
+    "char_end",
+    "page",
+    "order",
+    "role"
+  ],
+  "additionalProperties": false
+}

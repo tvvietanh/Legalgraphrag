@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "unit_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "document_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "snapshot_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "legal_version_id": {
+      "type": "null"
+    },
+    "type": {
+      "const": "article"
+    },
+    "article": {
+      "type": "string",
+      "minLength": 1
+    },
+    "clause": {
+      "type": "null"
+    },
+    "point": {
+      "type": "null"
+    },
+    "parent_id": {
+      "type": "null"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "unit_id",
+    "document_id",
+    "snapshot_id",
+    "legal_version_id",
+    "type",
+    "article",
+    "clause",
+    "point",
+    "parent_id",
+    "title",
+    "text"
+  ],
+  "additionalProperties": false
+}

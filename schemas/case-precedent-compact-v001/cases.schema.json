@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "document_number": {
+      "type": "string",
+      "minLength": 1
+    },
+    "facts": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reasoning": {
+      "type": "string",
+      "minLength": 1
+    },
+    "decision_text": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "case_id",
+    "document_number"
+  ],
+  "additionalProperties": false
+}

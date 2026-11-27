@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "precedent_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "number": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "legal_situation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "legal_solution": {
+      "type": "string",
+      "minLength": 1
+    },
+    "legal_summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_case_reference": {
+      "type": "string",
+      "minLength": 1
+    },
+    "related_law_text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "precedent_content": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "precedent_id",
+    "number",
+    "source_case_reference",
+    "precedent_content"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "document_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "official_number": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "const": "consolidation"
+    }
+  },
+  "required": [
+    "document_id",
+    "official_number",
+    "title",
+    "kind"
+  ],
+  "additionalProperties": false
+}
