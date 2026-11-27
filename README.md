@@ -32,6 +32,8 @@ Code hiện hữu chưa chứng minh KB ba tầng đã hoàn chỉnh.
 
 - `docs/offices/`: thiết kế đã thống nhất, tiếng Anh.
 - `docs/drafts/`: quá trình phát triển, tiếng Việt; `others/` lưu thảo luận chung.
+- `scripts/`: lệnh build/chạy; `download-dataset.py` lấy dữ liệu HF theo commit cố định.
+- `config/`, `prompts/`: cấu hình mẫu và prompt, không chứa khóa.
 - `src/vnlegal/`: thư viện Python xử lý văn bản và hợp đồng dữ liệu.
 - `schemas/`: schema kiểm tra dữ liệu, không chứa dữ liệu thật.
 - `tests/`: kiểm thử offline bằng fixture tổng hợp.
