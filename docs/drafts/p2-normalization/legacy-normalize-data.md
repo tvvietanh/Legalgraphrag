@@ -1,3 +1,8 @@
+# Tài liệu thiết kế lịch sử — cần đối chiếu
+
+Nội dung sau được giữ để truy vết; không phải xác nhận đã triển khai.
+Liên kết và cây thư mục cũ có thể đã thay đổi.
+
 # Normalization
 
 ## Mục tiêu chuẩn hóa là tạo khóa nhất quán cho bản án và quy phạm

@@ -1,3 +1,8 @@
+# Tài liệu thiết kế lịch sử — cần đối chiếu
+
+Nội dung sau được giữ để truy vết; không phải xác nhận đã triển khai.
+Liên kết và cây thư mục cũ có thể đã thay đổi.
+
 # Knowledge
 
 ## Chương 1: Bối cảnh tái triển khai LegalGraphRAG cho pháp luật Việt Nam
@@ -220,7 +225,7 @@ Case C01: hành vi chiếm đoạt tài sản
 + Không sử dụng truy xuất luật hiện hành làm chuẩn tuyệt đối cho bản án lịch sử.
 + Nếu thiếu văn bản hướng dẫn, báo thiếu nguồn thay vì để LLM điền điều kiện pháp lý không kiểm chứng.
 
-==> Tài liệu chi tiết tiếp nối: [sources.md](sources.md), [prepare-data.md](prepare-data.md), [normalize-data.md](normalize-data.md), [build-graph.md](build-graph.md), [agents.md](agents.md), [benchmark.md](benchmark.md).
+==> Tài liệu chi tiết tiếp nối: [sources.md](sources.md), [prepare-data.md](prepare-data.md), [normalize-data.md](normalize-data.md), [build-graph.md](build-graph.md), [agents.md](../agents.md), [benchmark.md](benchmark.md).
 
 ## Tài liệu tham khảo của kế hoạch
 

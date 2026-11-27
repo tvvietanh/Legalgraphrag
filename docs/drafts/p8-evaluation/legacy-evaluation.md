@@ -1,3 +1,8 @@
+# Tài liệu thiết kế lịch sử — cần đối chiếu
+
+Nội dung sau được giữ để truy vết; không phải xác nhận đã triển khai.
+Liên kết và cây thư mục cũ có thể đã thay đổi.
+
 # Evaluation
 
 ## Thí nghiệm cần đo cả độ chính xác, truy xuất, kiểm chứng và chi phí
@@ -50,7 +55,7 @@
 || Lệnh CLI dự kiến cho bản Việt hóa (đề xuất, chưa triển khai):
 
 ```bash
-python scripts/evaluate.py --config configs/experiments/full.yaml \
+python scripts/evaluate.py --config Others/config/experiments/full.yaml \
   --split data/splits/test.jsonl \
   --output artifacts/metrics/full
 ```

@@ -1,3 +1,8 @@
+# Tài liệu thiết kế lịch sử — cần đối chiếu
+
+Nội dung sau được giữ để truy vết; không phải xác nhận đã triển khai.
+Liên kết và cây thư mục cũ có thể đã thay đổi.
+
 # Overview
 
 ## Mục tiêu của dự án là tái lập LegalGraphRAG trên dữ liệu hình sự Việt Nam
@@ -77,10 +82,11 @@ vn-legalgraphrag/
 │   ├── benchmark.md
 │   ├── evaluation.md
 │   └── report.md
-├── configs/
-│   ├── sources.yaml
-│   ├── domain.yaml
-│   └── models.yaml
+├── Others/
+│   ├── config/          # sources.yaml, domain.yaml, models.yaml
+│   ├── reports/
+│   ├── skills/
+│   └── tests/
 ├── src/vnlegal/
 │   ├── ingest/
 │   ├── normalize/
@@ -109,7 +115,6 @@ vn-legalgraphrag/
 │   ├── retrieval/
 │   ├── predictions/
 │   └── metrics/
-├── tests/
 └── pyproject.toml
 ```
 
@@ -135,7 +140,7 @@ vn-legalgraphrag/
 + [prepare-data.md](prepare-data.md): tiếp nhận và khảo sát nguồn dữ liệu thô.
 + [normalize-data.md](normalize-data.md): schema, liên kết ID, trích xuất và QA.
 + [build-graph.md](build-graph.md): các bước tạo 3 graph, embedding và lưu trữ.
-+ [agents.md](agents.md): nhiệm vụ, đầu vào/đầu ra và lời gọi Agent.
++ [agents.md](../agents.md): nhiệm vụ, đầu vào/đầu ra và lời gọi Agent.
 + [benchmark.md](benchmark.md): benchmark cùng miền và split chống leakage.
 + [evaluation.md](evaluation.md): baseline, metrics, ablation và kiểm thử.
 + [report.md](report.md): cấu trúc báo cáo, biểu đồ và bằng chứng thực nghiệm.

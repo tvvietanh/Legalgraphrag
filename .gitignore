@@ -1,0 +1,15 @@
+/data/
+/Others/
+/.hf/
+/.venv*/
+/.worktrees/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.env
+.env.*
+!.env.example
+*.credentials.local.json
