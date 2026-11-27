@@ -45,6 +45,10 @@ class DatasetRestoreTests(unittest.TestCase):
         self.assertEqual(d.destination('draft/structured/task7-v002/cases/shard-01.tar.gz')[2], 'shard-01')
         self.assertIn('/text/TAND1.txt', d.destination('official/texts/v001/precedents/TAND1.txt')[1])
 
+    def test_pilot_prompts_are_restored_without_dataset_navigation_docs(self):
+        self.assertEqual(d.destination('draft/experiments/fact-pilot-v001/prompt-features.md')[0], 'pilot')
+        self.assertIsNone(d.destination('official/texts/v001/README.md'))
+
     def test_keep_manual_edits_and_allow_identical_repeat(self):
         source = self.file('source', 'accepted')
         target = self.root/'data/copy'

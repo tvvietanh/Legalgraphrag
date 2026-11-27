@@ -31,7 +31,7 @@ def inside(root, name):
 
 def destination(remote):
     """Return group, local workspace path, archive type, or None for navigation docs."""
-    if remote.endswith('.md'):
+    if remote.endswith('.md') and not remote.startswith('draft/experiments/fact-pilot-v001/prompt-'):
         return None
     mappings = [
         ('official/texts/v001/laws/', 'laws', 'data/normalized/law-alternatives-v3/review/'),

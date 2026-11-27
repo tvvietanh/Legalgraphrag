@@ -134,16 +134,16 @@ vn-legalgraphrag/
 
 ## Danh mục tài liệu mô tả từng công đoạn
 
-+ [KB-build.md](KB-build.md): bốn chương về bối cảnh, nguồn dữ liệu, chuẩn hóa và dựng graph.
-+ [system.md](system.md): giao diện module, tương tác tác nhân, mô hình, kiến trúc kỹ thuật.
-+ [sources.md](sources.md): nguồn pháp luật, dataset, benchmark, truy cập, độ phủ, rủi ro.
-+ [prepare-data.md](prepare-data.md): tiếp nhận và khảo sát nguồn dữ liệu thô.
-+ [normalize-data.md](normalize-data.md): schema, liên kết ID, trích xuất và QA.
-+ [build-graph.md](build-graph.md): các bước tạo 3 graph, embedding và lưu trữ.
-+ [agents.md](../agents.md): nhiệm vụ, đầu vào/đầu ra và lời gọi Agent.
-+ [benchmark.md](benchmark.md): benchmark cùng miền và split chống leakage.
-+ [evaluation.md](evaluation.md): baseline, metrics, ablation và kiểm thử.
-+ [report.md](report.md): cấu trúc báo cáo, biểu đồ và bằng chứng thực nghiệm.
++ KB-build.md (đường dẫn lịch sử: `KB-build.md`): bốn chương về bối cảnh, nguồn dữ liệu, chuẩn hóa và dựng graph.
++ system.md (đường dẫn lịch sử: `system.md`): giao diện module, tương tác tác nhân, mô hình, kiến trúc kỹ thuật.
++ sources.md (đường dẫn lịch sử: `sources.md`): nguồn pháp luật, dataset, benchmark, truy cập, độ phủ, rủi ro.
++ prepare-data.md (đường dẫn lịch sử: `prepare-data.md`): tiếp nhận và khảo sát nguồn dữ liệu thô.
++ normalize-data.md (đường dẫn lịch sử: `normalize-data.md`): schema, liên kết ID, trích xuất và QA.
++ build-graph.md (đường dẫn lịch sử: `build-graph.md`): các bước tạo 3 graph, embedding và lưu trữ.
++ agents.md (đường dẫn lịch sử: `../agents.md`): nhiệm vụ, đầu vào/đầu ra và lời gọi Agent.
++ benchmark.md (đường dẫn lịch sử: `benchmark.md`): benchmark cùng miền và split chống leakage.
++ evaluation.md (đường dẫn lịch sử: `evaluation.md`): baseline, metrics, ablation và kiểm thử.
++ report.md (đường dẫn lịch sử: `report.md`): cấu trúc báo cáo, biểu đồ và bằng chứng thực nghiệm.
 
 ## Quy ước trình bày được kế thừa từ template của dự án
 

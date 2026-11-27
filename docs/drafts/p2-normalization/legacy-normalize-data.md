@@ -203,7 +203,7 @@ Các file `normalized/*.jsonl` là nguồn chuẩn duy nhất cho Graph Builder 
 + Báo cáo `label-audit.csv`, `law-link-audit.csv`, `pii-audit.csv`.
 + Các lỗi còn lại được cách ly, không lặng lẽ điền thông tin bằng LLM.
 
-==> [prepare-data.md](prepare-data.md) là bước trước; [build-graph.md](build-graph.md) là bước kế tiếp.
+==> prepare-data.md (đường dẫn lịch sử: `prepare-data.md`) là bước trước; build-graph.md (đường dẫn lịch sử: `build-graph.md`) là bước kế tiếp.
 
 ## Nguồn đối chiếu cho schema và truy vết
 

@@ -157,7 +157,7 @@ Case C01: hành vi chiếm đoạt tài sản
 }
 ```
 
-==> Chi tiết schema, rule kiểm chứng và lỗi thường gặp nằm trong [normalize-data.md](normalize-data.md).
+==> Chi tiết schema, rule kiểm chứng và lỗi thường gặp nằm trong normalize-data.md (đường dẫn lịch sử: `normalize-data.md`).
 
 ## Chương 4: Kế hoạch xây dữ liệu Graph từ dữ liệu đã chuẩn hóa
 
@@ -225,7 +225,7 @@ Case C01: hành vi chiếm đoạt tài sản
 + Không sử dụng truy xuất luật hiện hành làm chuẩn tuyệt đối cho bản án lịch sử.
 + Nếu thiếu văn bản hướng dẫn, báo thiếu nguồn thay vì để LLM điền điều kiện pháp lý không kiểm chứng.
 
-==> Tài liệu chi tiết tiếp nối: [sources.md](sources.md), [prepare-data.md](prepare-data.md), [normalize-data.md](normalize-data.md), [build-graph.md](build-graph.md), [agents.md](../agents.md), [benchmark.md](benchmark.md).
+==> Tài liệu chi tiết tiếp nối: sources.md (đường dẫn lịch sử: `sources.md`), prepare-data.md (đường dẫn lịch sử: `prepare-data.md`), normalize-data.md (đường dẫn lịch sử: `normalize-data.md`), build-graph.md (đường dẫn lịch sử: `build-graph.md`), agents.md (đường dẫn lịch sử: `../agents.md`), benchmark.md (đường dẫn lịch sử: `benchmark.md`).
 
 ## Tài liệu tham khảo của kế hoạch
 

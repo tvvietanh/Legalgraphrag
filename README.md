@@ -4,7 +4,8 @@
 
 Tái lập hướng LegalGraphRAG cho pháp luật hình sự Việt Nam, ban đầu tập trung
 nhóm tội xâm phạm sở hữu. Hệ thống hỗ trợ nghiên cứu, không thay quyết định pháp lý.
-Tham khảo và thiết kế lịch sử ở docs/drafts/; phạm vi đã thống nhất ở
+Tham khảo [LegalGraphRAG](https://github.com/XMUDeepLIT/LegalGraphRAG);
+thiết kế lịch sử ở docs/drafts/; phạm vi đã thống nhất ở
 [overall.md](docs/offices/overall.md).
 
 GitHub chỉ lưu code và tài liệu; dữ liệu ở
@@ -13,7 +14,9 @@ GitHub chỉ lưu code và tài liệu; dữ liệu ở
 
 ## 2. Hướng dẫn cài đặt
 
-Hướng dẫn sử dụng local đầy đủ sẽ bổ sung sau khi kiểm tra gói code tích hợp.
+Cần Python >= 3.10. Từ root checkout, tạo virtualenv và cài `pip install -e .`.
+Để dùng công cụ HF, cài thêm `pip install -e ".[data]"`.
+Hướng dẫn chạy hệ thống local đầy đủ sẽ bổ sung sau.
 Không tự tải mô hình, gọi API trả phí hoặc tải dữ liệu khi mở repo.
 
 ## 3. Thiết kế cơ bản
@@ -39,5 +42,6 @@ Code hiện hữu chưa chứng minh KB ba tầng đã hoàn chỉnh.
 - `tests/`: kiểm thử offline bằng fixture tổng hợp.
 - `conventions.md`: quy ước tên, dữ liệu, review và Git.
 
+Bản đồ file và thứ tự gọi hàm: [source-code-map.md](docs/offices/source-code-map.md).
 Code được đưa sang từng commit; xem tiến độ ở
 [refactor-commit-plan.md](docs/drafts/others/refactor-commit-plan.md).
